@@ -1,0 +1,133 @@
+.welcome{
+    max-width: 100%;
+    width: 1200px;
+    height: 600px; ;
+    position: relative;
+    margin: 10px auto;
+}
+.welcome img{
+    position: absolute;
+    height: 70%;
+    left: 63%;
+    top: 10%;
+    border-radius: 50%;
+    background-color: darkgray;
+    border-top-right-radius: 0px;
+}
+.welcome h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 16%;
+    top: 20%;
+}
+header{
+    position: relative;
+    background-color: blue;
+    padding: 3px;
+    width: 100%;
+   
+}
+header h1{
+    font-size: 2rem;
+    font-weight: bold;
+    border: 5px solid white;
+    display: inline-block;
+    border-radius: 30px;
+    color: white;
+    margin-left: 36%;
+
+}
+nav{
+    position: sticky;
+    background-color: darkgrey;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: beige;
+}
+a:hover{
+    background-color: blue;
+}
+.about{
+    
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: blue;
+    text-align: center;
+    color: aliceblue;
+    border: solid 5px;
+    border-radius: 2rem;
+    max-width: 32%;
+    display: center;
+    margin-left: 40%;
+}
+.position{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 3%;
+    justify-content: space-between;
+}
+.position h2{
+    font-weight: bold;
+    
+}
+form{
+    border: solid 2px #ddd;
+    width: 60%;
+    height: 80%;
+    padding: 15px;
+    background-color: rgba(0, 0, 255, 0.568);
+    border-radius: 2rem;
+}
+form input[type='text'] input[type='email'] form textarea{
+    padding: 8px;
+    font-size: 1.2rem;
+    border: solid 2px #ddd;
+    width: 100%;
+    margin: 6px 0;
+    border-radius: 2rem;
+}
+form input[type='submit']{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px 19px;
+    border-radius: 2rem;
+    margin-top: 5%;
+}
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.whatsapp p{
+    font-size: 35px;
+    font-weight: bold;
+    color: green;
+    margin-top: 5%;
+}
+.whatsapp span{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 8%; 
+}
+
+div.form{
+    position: relative;
+}
+div.form form{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}

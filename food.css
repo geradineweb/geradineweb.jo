@@ -1,0 +1,27 @@
+.delice{
+    position: relative;
+}
+.delice img{
+    position: absolute;
+    width: 100%;
+    margin-top: 0%;
+   
+   
+}
+.delice h1{
+    position: relative;
+    padding-top: 40%;
+    left: 25%;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: blue;
+}
+.separe{
+    display: flex;
+    justify-content: space-between;
+}
+.separe img{
+    width: 200px;
+    height: 200px;
+}
